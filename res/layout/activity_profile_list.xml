@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".ProfileActivity" >
+
+    <ListView
+        android:id="@+id/contact_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fastScrollAlwaysVisible="true"
+        android:layout_marginBottom="60dp"
+        android:fastScrollEnabled="true" >
+    </ListView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true" >
+
+        <com.google.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2751973097221640/2514705418" >
+        </com.google.ads.AdView>
+    </LinearLayout>
+
+</RelativeLayout>

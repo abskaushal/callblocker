@@ -1,0 +1,41 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_add"
+        android:icon="@drawable/add"
+        android:orderInCategory="100"
+        android:showAsAction="always"
+        android:title="@string/action_settings"/>
+    <item
+        android:id="@+id/action_contact"
+        android:icon="@drawable/back_btn"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_contacts"/>
+    <item
+        android:id="@+id/action_log"
+        android:icon="@drawable/back_btn"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_log"/>
+    
+    <item
+        android:id="@+id/action_reject"
+        android:icon="@drawable/back_btn"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_reject"/>
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/back_btn"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/edit"/>
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/back_btn"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/delete"/>
+
+</menu>
